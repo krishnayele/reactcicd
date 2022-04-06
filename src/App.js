@@ -1,8 +1,9 @@
-
-import './App.css';
+import {LandingPage} from './Container'
 
 function App() {
   return (
+    <>
+    <LandingPage/>
     <div className="App">
       <header className="App-header">
         
@@ -11,6 +12,7 @@ function App() {
         
       </header>
     </div>
+    </>
   );
 }
 
