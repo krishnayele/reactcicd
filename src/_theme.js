@@ -36,12 +36,12 @@ const theme=createTheme({
           primary:{
               main:'#FFEEEE',
               light:'#FFEE0',
-              contrastText:'#000000'
+              contrastText:'#ffffff'
           },
           secondary:{
               main:"#FFF6EA",
               light:"#FFF6E0",
-              contrastText:"#000000"
+              contrastText:"#ffffff"
           }
       }
     
