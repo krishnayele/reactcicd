@@ -1,17 +1,13 @@
 import {LandingPage} from './Container'
+import {theme} from './_theme'
+import {ThemeProvider} from '@mui/material/styles'
 
 function App() {
   return (
     <>
+    <ThemeProvider theme={theme}>
     <LandingPage/>
-    <div className="App">
-      <header className="App-header">
-        
-        <h3>Hi! Krishna Yele Here</h3>
-        <h2>An automation consultant</h2>
-        
-      </header>
-    </div>
+    </ThemeProvider>
     </>
   );
 }
