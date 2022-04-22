@@ -17,11 +17,17 @@ const theme=createTheme({
             // Name of the slot
             root: {
               // Some CSS
-              backgroundColor: '#FFF6EA',
+              backgroundColor: '#EEEDE7',
             },
           },
-        }
+        },
+        
       },
+      palette:{
+        primary:{
+          main:"#05445E"
+        }
+      }
       
     
 })
